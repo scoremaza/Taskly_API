@@ -193,7 +193,7 @@ GS_FILE_OVERWRITE = True
 
 
 GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
-    BASE_DIR / 'taskapi-backend-337019-994818a98d1b.json'
+     os.path.join(BASE_DIR, 'taskapi-backend-337019-994818a98d1b.json')
 )
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
